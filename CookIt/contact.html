@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>       
-        <title>CookIt!&reg;</title>
+    <head>
+        <title>Contact</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -14,7 +14,7 @@
             </a>
             <div class="navlink">
                 <a class="navbarLink" href="CookIt.html"> Home </a>
-                <a class="navbarLink" href="#month" > Recipes of the Month</a>
+                <a class="navbarLink" href="Cookit.html#month" > Recipes of the Month</a>
                 <a class="navbarLink" href="Recipes.html" >Favorite Recipes</a>
                 <a class="navbarLink" href="contact.html" >Contact</a>
             </div>
@@ -22,28 +22,49 @@
                 <img src="images/login.svg" width="50" alt="an icon of a person">
             </a>
         </nav>
-        <section class="first welcome">
-            <div class="hero"> 
-                <h1 class="hero_text"> Welcome to CookIt!&reg;</h1>
-                <h2 class="hero_text">Simple and healthy recipes from breakfast to dinner</h2>
-            </div>
-                <p class="text-center">Here you will find the best recipes for cooking and baking!</p>
-                <a class="button" href="Recipes.html"> Favorite Recipes </a>
-        </section>
-        <section class="border-top">
-            <h2 id="month" class="text-center">Recipes of the month</h2>
-            <div class="grid">
-                <a href="oats.html" target="_blank" class="fade">
-                    <img class="monthimg" src="images/oats.jpg" alt="Oatmeal in a bowl">
-                </a>
-                <a href="carbonara.html" target="_blank" class="fade">
-                    <img class="monthimg" src="images/carbonara.jpg"  alt="Spaghetti carbonara served in a plate">
-                </a>
-                <a href="cookies.html" target="_blank" class="fade">
-                    <img class="monthimg" src="images/cookies.jpg" alt="Two dark chocolate cookies">
-                </a>
-            </div>
-        </section>
+        <section class="first flexCol">
+            <h1 class="text-center">Contact us</h1>
+            <form>
+                <p>
+                  <label for="name">First Name:</label>
+                  <input type="text" id="name" name="user_name">
+                </p>
+                <p>
+                  <label for="age">Last name:</label>
+                  <input type="text" id="age" name="user_age">
+                </p>
+                <p>
+                  <label for="mail">E-mail:<span class="red">*</span> </label>
+                  <input type="email" id="mail" name="user_mail" required>
+                </p>
+                <p>
+                    <label for="tyoe">What are you contacting us about?</label>
+                </p>
+                <p></p>
+                    <select id="type" name="type">
+                        <option selected>Question</option>
+                        <option>Recipe</option>
+                        <option>Recommendation</option>
+                        <option>Other</option>
+                    </select>
+                  </p>
+                  <p>
+                    <label>Your message<span class="red">*</span></label><br>
+                    <textarea cols="30" rows="8" required></textarea>
+                  </p>
+                  <p>
+                  <input type="checkbox" name="terms" value="terms" required>
+                  <label><span class="red">*</span>I agree to terms and conditions</label><br>
+                  </p>
+                <p>
+                  <input type="reset" value="Reset">
+                  <input type="submit" value="Send">
+                </p>
+            </form>
+          
+            <form>
+            
+        </section>    
         <footer>
             <p>Designed and Developed with <span id="heart">&#10084; </span> by <a class="footer" href="http://www.konstantina.se"> Konstantina </a> </p>
             <div class="footerlinks flex">
@@ -51,9 +72,9 @@
                     <h4>Useful links</h4>
                     <a class="footer" href="Converter.html"> Measurement Converter</a>
                     <a class="footer" href="CookIt.html"> Careers</a>
-                    <a class="footer" href="contact.html"> Contact us</a>
+                    <a class="footer" href="ontact.html"> Contact us</a>
                 </div>
-                <div class="social flex">
+                <div class="social">
                     <a class="footer" href="http://www.facebook.com" target="_blank"> 
                         <img src="images/facebook.svg" width="40" alt="Facebook logo">
                     </a>
@@ -69,6 +90,5 @@
                 </div>
             </div>
         </footer>
-    
     </body>
 </html>

@@ -1,0 +1,610 @@
+/* 
+   Color Scheme
+   Green: #45e592
+   Red: #E54548 rgb(229, 69, 72)
+   Dark Grey: #404040
+   Light grey: #707070
+*/   
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+2|Lato:300,400&display=swap');
+
+body{
+    color: #404040;
+    margin:0px;
+}
+
+nav{
+  position: fixed;
+  top:0px;
+  background-color: white;
+  display: flex;
+  align-items:center;
+  width:100%
+}
+
+
+.logo{
+  margin-left:20px;
+  margin-right:20px;
+  flex: 1;
+}
+
+.navlink{
+  flex: 8;
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
+.navbarLink{
+  margin: 20px;
+}
+
+.header_carbonara{
+  font-family: "Lato", sans-serif;
+}
+
+footer{
+  background-color: #303030;
+  width: 100%;
+  color: #FFFFFF;
+  padding: 40px;
+}
+
+.maintitle{
+  color: #E54548;
+}
+
+#heart{
+  color: mediumvioletred;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+}
+
+.hero_text{
+  text-align: center;
+  color: #FFFFFF;
+} 
+
+.hero{
+  width: 100%;
+  height: auto;
+  background-image: url("images/pasta.jpg");
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 100px;
+}
+
+.border-top{
+  border-top: 1px solid #AAAAAA;
+}
+
+.welcome{
+  margin-bottom: 100px;
+}
+.first{
+  margin-top: 80px;
+}
+
+.centered{
+  margin:auto;
+}
+
+#intro{
+  width: 100%;
+  margin: auto;
+  font-size: 25px;
+  
+}
+
+#month{
+  margin-top:100px;
+}
+
+a {
+  outline: none; /*removes the outline when the link is focused*/
+  text-decoration: none; /*removes the underline*/
+  font-family: 'Lato', sans-serif; /*link text font*/
+  font-weight: 300;
+}
+
+a:link { /*unvisited link*/
+  color: #E54548; /*text color*/
+}
+
+a:visited { /*visited link*/
+  color: #E54548 /*text color*/
+}
+
+a:focus { /*focused link*/
+  color: #FFFFFF; /*text color*/
+  background-color: #E54548; /*background color*/
+}
+
+a:hover { /*hovered link*/
+  font-weight: bold;   /*bold text*/
+
+}
+
+a:active { /*active link*/
+  color: #404040; /*text color*/
+  background-color:#FFFFFF; 
+}
+
+.footer:link, .footer:visited{ /*unvisited link*/
+  color: #FFFFFF; /*text color*/
+}
+
+.button { /*link as button*/
+  outline: none; /*removes the outline when the link is focused*/
+  text-decoration: none; /*removes the underline*/
+  font-family: 'Lato', sans-serif; /*link text font*/
+  background-color: #E54548;
+  border-radius: 5px; /*rounded corners*/
+  padding: 10px;
+  margin:auto;
+  display:block;
+  width:10%;
+  text-align:center;
+}
+
+.button:link { /*unvisited button*/
+  color: #FFFFFF; /*text color*/
+}
+
+.button:visited { /*visited button*/
+  color: #FFFFFF; /*text color*/
+}
+
+.button:focus { /*focused button*/
+  color: #FFFFFF; /*text color*/
+  background-color: #AC3436; /*background color*/
+
+}
+
+.button:hover { /*hovered button*/
+  background-color: rgb(229, 69, 72, 0.8);  /*transparent background*/
+}
+
+.button:active { /*active link*/
+  background-color: #AC3436; 
+}
+
+
+table{
+  margin:auto;
+  margin-bottom: 200px;
+}
+
+table, th, td {
+  border: 1px solid #404040; /*sets the table border*/
+  border-collapse: collapse; /*collapses double border into a single one*/
+  padding-left:  15px; /*adds padding(white space) around the data in the cells*/
+  padding-right:  15px;
+  padding-top:  10px;
+  padding-bottom:  10px;
+  font-family: 'Lato', sans-serif; /*font*/
+}
+
+th {
+  background-color: #AC3436; /*background color of headings*/
+  color: #FFFFFF; /*text color of headings*/
+}
+tr:nth-child(even) { /*selects all even rows*/
+    background-color: lightgrey; /*alternating row background color*/
+}
+
+ul, ol{
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  width: 70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+ul{
+  margin-bottom:150px;
+}
+
+
+.title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.title{
+margin-top: -40px;
+}
+
+
+.flex{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+article{
+  width: 80%;
+}
+
+.oner{
+
+  flex: 1 300px;
+}
+
+.twor{
+  flex: 2 300px;
+}
+
+.recipe{
+
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.recipe img{
+  width:100%;
+  border-radius: 5px; 
+}
+
+footer p{
+  text-align:center;
+}
+
+.flexCol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.footerlinks{
+  align-items: center;
+}
+
+.usefullinks, .social{
+  width:50%;
+  margin:auto;
+}
+
+.grid {
+  width:80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:5px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 400px) {
+  p {
+      font-size: 18px;
+  }
+}
+
+.monthimg{
+  max-width:300px;
+}
+
+
+@media screen and (max-width: 400px) {
+  .grid {
+    grid-template-columns: 1fr
+  }
+}
+
+/***TEST CSS***/
+
+
+/*
+.test-div{
+  margin: 50px;
+}
+
+.test-div p{
+  border: 2px solid red;
+}
+
+.positionp{
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+/*
+
+.red{
+ color: red;
+}
+
+.form{
+  margin: 50px;
+}
+
+.testspan{
+  width:700px;
+  height:700px;
+  padding:20px;
+  border: 5px solid red;
+  margin:40px;
+}
+
+.spantest{
+border: 1px solid red;
+margin: 10px;
+}
+
+.grid1 p, .grid p{
+  border: 1px solid red;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#it0{
+  grid-column:1;
+  grid-row:1;
+}
+
+#it1{
+  grid-column:2/ 3;
+  grid-row:1;
+}
+
+#it2{
+  grid-column:1;
+  grid-row:2/ 3;
+}
+
+#it3{
+  grid-column:2;
+  grid-row:2;
+}
+
+#it4{
+  grid-column:3;
+  grid-row:2;
+}
+
+#it5{
+  grid-column:2 /3;
+  grid-row:3;
+}
+
+#it6{
+  grid-column:1/ 2;
+  grid-row:4;
+}
+
+#it7{
+  grid-column:3;
+  grid-row:4;
+}
+
+#it8{
+  grid-column:1;
+  grid-row:5;
+}
+
+#it9{
+  grid-column:2 /3;
+  grid-row:5;
+}
+.h{
+  position:fixed;
+
+}
+.p1{
+  position:absolute;
+  top: 50px;
+  left: 80px;
+  z-index:3
+}
+
+.p2{
+  position:absolute;
+  top: 50px;
+  left: 80px;
+  z-index:1
+}
+
+.position{
+  position: relative;
+  border: 1px solid red;
+}
+.position h1{
+  background-color:lightcyan; 
+}
+
+.p1{
+  background-color:lightcoral; 
+}
+
+.p2{
+  background-color:lightgoldenrodyellow; 
+}
+
+
+.h{
+  position: sticky;
+  top: 30px;
+  
+}
+
+.grid1 p, .grid p{
+  border: 1px solid red;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#it0{
+  grid-column:1;
+  grid-row:1;
+}
+
+#it1{
+  grid-column:2/ 3;
+  grid-row:1;
+}
+
+#it2{
+  grid-column:1;
+  grid-row:2/ 3;
+}
+
+#it3{
+  grid-column:2;
+  grid-row:2;
+}
+
+#it4{
+  grid-column:3;
+  grid-row:2;
+}
+
+#it5{
+  grid-column:2 /3;
+  grid-row:3;
+}
+
+#it6{
+  grid-column:1/ 2;
+  grid-row:4;
+}
+
+#it7{
+  grid-column:3;
+  grid-row:4;
+}
+
+#it8{
+  grid-column:1;
+  grid-row:5;
+}
+
+#it9{
+  grid-column:2 /3;
+  grid-row:5;
+}
+.h{
+  position:fixed;
+
+}
+.p1{
+  position:absolute;
+  top: 50px;
+  left: 80px;
+  z-index:3
+}
+
+.p2{
+  position:absolute;
+  top: 50px;
+  left: 80px;
+  z-index:1
+}
+
+.position{
+  position: relative;
+  border: 1px solid red;
+}
+.position h1{
+  background-color:lightcyan; 
+}
+
+.p1{
+  background-color:lightcoral; 
+}
+
+.p2{
+  background-color:lightgoldenrodyellow; 
+}
+
+
+.h{
+  position: sticky;
+  top: 30px;
+  
+}*/
+
+/*grid test*/
+/*.gridimg{
+  width: 300px;
+  height: auto;
+} 
+
+.grid p{
+  border: 1px solid red;
+}
+
+.flex article{
+  flex: 200px;
+}
+
+.flex1{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  
+}
+
+.one{
+  flex: 1 50px;
+  border: 1px solid #404040;
+}
+
+.two{
+  flex: 2 50px;
+  border: 1px solid #404040;
+} 
+
+.flexCol{
+  display:flex;
+  flex-direction: column;
+}
+
+.book{
+  background-color: lightyellow;
+  padding: 20px;
+  margin:10px;
+}
+
+.flexCol1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+#one{
+  order: -1;
+}
+
+#two{
+  order: 0;
+}
+
+#three{
+  order: 1;
+} */

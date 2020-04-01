@@ -3,25 +3,29 @@
     <head>
         <title>Spaghetti carbonara</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="style.css"> 
     </head>
     <body>
-        <nav>
-            <a href="CookIt.html">
+        <nav> 
+            <a class="navbar logo" href="CookIt.html">
                 <img src="images/logo.svg" width="50" alt="Chef hat">
             </a>
-            <a href="" > Home </a>
-            <a href="CookIt.html#month" target="_blank"> Recipes of the Month</a>
-            <a href="">Favorite Recipes</a>
-            <a href="">Contact</a>
-            <a href="CookIt.html">
+            <div class="navlink">
+                <a class="navbarLink" href="CookIt.html"> Home </a>
+                <a class="navbarLink" href="Cookit.html#month" > Recipes of the Month</a>
+                <a class="navbarLink" href="Recipes.html" >Favorite Recipes</a>
+                <a class="navbarLink" href="contact.html" >Contact</a>
+            </div>
+            <a class="navbar logo" href="CookIt.html">
                 <img src="images/login.svg" width="50" alt="an icon of a person">
             </a>
         </nav>
-        <article>
-            <h3>Spaghetti carbonara</h3>
+        <article class="first flexCol">
+            <h1 class="text-center">Spaghetti carbonara</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/vSRZRp2Ovqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h4>Ingredients</h4>
+            <h4 class="text-center">Ingredients</h4>
             <ul style="list-style-type:none;">
                 <li>100g pancetta</li>
                 <li> 50g pecorino cheese</li>
@@ -32,7 +36,7 @@
                 <li> 50g unsalted butter</li> 
                 <li> sea salt and freshly grated black pepper</li>
             </ul>
-            <h4>Instructions</h4>
+            <h4 class="text-center">Instructions</h4>
             <ol>
                 <li>Put a large saucepan of water on to boil. Put a large saucepan of water on to boil.</li>
                 <li>Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together. </li>
@@ -49,24 +53,29 @@
             </ol>
         </article>    
         <footer>
-            Designed and Developed with &#10084; by <a href="http://www.konstantina.se"> Konstantina </a> 
-            <h4>Useful links</h4>
-            
-            <a href="Converter.html"> Measurement Converter</a>
-            <a href="CookIt.html"> Careers</a>
-            <a href="Contact.html"> Contact us</a>
-            <a href="http://www.facebook.com" target="_blank"> 
-                <img src="images/facebook.svg" width="40" alt="Facebook logo">
-            </a>
-            <a href="http://www.instagram.com" target="_blank"> 
-                <img src="images/instagram.svg" width="40" alt="instagram logo"> 
-            </a> 
-            <a href="http://www.twitter.com" target="_blank"> 
-                <img src="images/twitter.svg" width="40" alt="twitter logo"> 
-            </a> 
-            <a href="http://www.linkedin.com" target="_blank"> 
-                <img src="images/linkedin.svg" width="40" alt="linkedin logo"> 
-            </a>
+            <p>Designed and Developed with <span id="heart">&#10084; </span> by <a class="footer" href="http://www.konstantina.se"> Konstantina </a> </p>
+            <div class="footerlinks flex">
+                <div class="flexCol usefullinks">
+                    <h4>Useful links</h4>
+                    <a class="footer" href="Converter.html"> Measurement Converter</a>
+                    <a class="footer" href="CookIt.html"> Careers</a>
+                    <a class="footer" href="contact.html"> Contact us</a>
+                </div>
+                <div class="social">
+                    <a class="footer" href="http://www.facebook.com" target="_blank"> 
+                        <img src="images/facebook.svg" width="40" alt="Facebook logo">
+                    </a>
+                    <a class="footer" href="http://www.instagram.com" target="_blank"> 
+                        <img src="images/instagram.svg" width="40" alt="instagram logo"> 
+                    </a> 
+                    <a class="footer" href="http://www.twitter.com" target="_blank"> 
+                        <img src="images/twitter.svg" width="40" alt="twitter logo"> 
+                    </a> 
+                    <a class="footer" href="http://www.linkedin.com" target="_blank"> 
+                        <img src="images/linkedin.svg" width="40" alt="linkedin logo"> 
+                    </a>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
